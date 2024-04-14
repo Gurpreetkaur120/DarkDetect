@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Tampering Detection</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    h1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    #image-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    #image-input {
+        margin-bottom: 10px;
+    }
+    
+    #results {
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    
+    #results img {
+        max-width: 100%;
+        height: auto;
+    }
+</style>
+<body>
+    <h1>Image Tampering Detection</h1>
+    <form id="image-form">
+        <input type="file" id="image-input" required>
+        <button type="submit">Analyse</button>
+    </form>
+    <div id="results">
+        <!-- Results will be displayed here -->
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
