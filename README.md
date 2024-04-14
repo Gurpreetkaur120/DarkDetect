@@ -45,32 +45,6 @@ DarkDetect is a Python-based project designed to analyze images for deceptive an
 
 2. DarkDetect will process the image and provide analysis results including whether deceptive content is detected, if the image has been tampered with, confidence score, and recommendations.
 
-## Contributing
-
-Contributions to DarkDetect are welcome! To contribute, follow these steps:
-
-1. Fork the repository.
-
-2. Create a new branch:
-
-   ```bash
-   git checkout -b feature/my-feature
-   ```
-
-3. Make your changes and commit them:
-
-   ```bash
-   git commit -am 'Add new feature'
-   ```
-
-4. Push to the branch:
-
-   ```bash
-   git push origin feature/my-feature
-   ```
-
-5. Create a pull request detailing your changes.
-
 ## License
 
 DarkDetect is licensed under the [MIT License](LICENSE).
